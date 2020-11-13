@@ -1,6 +1,4 @@
-<div align="center">
-    <img src="https://github.com/adafcaefc/GDLiveEditor/blob/master/assets/logo.png?raw=true" height="128" width="128" alt="book">
-</div>
+
 
 # GDDLLLoader
 
