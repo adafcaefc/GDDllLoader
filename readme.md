@@ -2,7 +2,7 @@
 
 # GDDLLLoader
 
-**Load DLLs the Geometry Dash!**
+**Load DLLs to the Geometry Dash!**
 
 ----
 
