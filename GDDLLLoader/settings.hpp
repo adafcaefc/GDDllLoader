@@ -35,13 +35,13 @@
  * --------------------------------------------------------------------------------------
  */
 
-	#define DL_DEFAULT		 1			// Use default settings
-	#define DL_FOLDER_NAME   "adaf-dll"	// Folder name
-	#define DL_NO_FOLDER     0			// Load DLL directly from Geometry Dash directory
-	#define DL_DLL_BASE		 0			// Use DLL directory as base path
-	#define DL_CREATE_FOLDER 1			// Create a folder if it doesn't exist
-	#define DL_USE_PREFIX    0			// Use prefix for loading dll
-	#define DL_PREFIX		 "adaf_"	// DLL prefix
+    #define DL_DEFAULT		 1			// Use default settings
+    #define DL_FOLDER_NAME   "adaf-dll"	// Folder name
+    #define DL_NO_FOLDER     0			// Load DLL directly from Geometry Dash directory
+    #define DL_DLL_BASE		 0			// Use DLL directory as base path
+    #define DL_CREATE_FOLDER 1			// Create a folder if it doesn't exist
+    #define DL_USE_PREFIX    0			// Use prefix for loading dll
+    #define DL_PREFIX		 "adaf_"	// DLL prefix
 
  /*
   * --------------------------------------------------------------------------------------
@@ -49,26 +49,26 @@
   * --------------------------------------------------------------------------------------
   */
 
-	#if		DL_DLL_BASE    == 1
-		#define DL_GET_BASE_PATH  get_dll_directory
-	#else
-		#define DL_GET_BASE_PATH  get_executable_directory
-	#endif
+    #if		DL_DLL_BASE    == 1
+        #define DL_GET_BASE_PATH  get_dll_directory
+    #else
+        #define DL_GET_BASE_PATH  get_executable_directory
+    #endif
 
-	#ifndef UNICODE
-		#define DL_STR string
-	#else
-		#define DL_STR wstring
-	#endif
+    #ifndef UNICODE
+        #define DL_STR string
+    #else
+        #define DL_STR wstring
+    #endif
 
-	#if		DL_DEFAULT    == 1
-		#undef	DL_FOLDER_NAME, DL_NO_FOLDER, DL_DLL_BASE, DL_CREATE_FOLDER, DL_USE_PREFIX, DL_PREFIX
-		#define DL_FOLDER_NAME   "adaf-dll"
-		#define DL_NO_FOLDER     0			
-		#define DL_DLL_BASE		 0			
-		#define DL_CREATE_FOLDER 1			
-		#define DL_USE_PREFIX    0		
-		#define DL_PREFIX		 ""
-	#endif  
+    #if		DL_DEFAULT    == 1
+        #undef	DL_FOLDER_NAME, DL_NO_FOLDER, DL_DLL_BASE, DL_CREATE_FOLDER, DL_USE_PREFIX, DL_PREFIX
+        #define DL_FOLDER_NAME   "adaf-dll"
+        #define DL_NO_FOLDER     0			
+        #define DL_DLL_BASE		 0			
+        #define DL_CREATE_FOLDER 1			
+        #define DL_USE_PREFIX    0		
+        #define DL_PREFIX		 ""
+    #endif  
 
 #endif
