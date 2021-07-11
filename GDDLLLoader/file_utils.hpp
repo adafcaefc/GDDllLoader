@@ -1,3 +1,31 @@
+/*
+ * -----------------------------------------------------------------------------
+ * GD DLL Loader by Adafcaefc
+ * -----------------------------------------------------------------------------
+ *
+ * Put the provided libExtensions.dll and GDDLLLoader.dll to the Geometry Dash directory.
+ * Put DLLs in the adaf-dll folder.
+ * You can check the settings on settings.hpp file
+ *
+ * -- Contacts --
+ * Github:  https://github.com/adafcaefc
+ * YouTube: https://www.youtube.com/channel/UCDnlxnVCzm-rdK7b13eDkRQ
+ * Website: https://adaf.xyz/adaf/
+ * Discord: https://discord.com/invite/GQbFHR6jNW
+ *
+ * -----------------------------------------------------------------------------
+ * Requirements
+ * -----------------------------------------------------------------------------
+ *
+ * The recommended version of C++ is C++17
+ * Recommended C++ compilers
+ *
+ * Visual Studio https://visualstudio.microsoft.com/
+ * MinGW		 https://sourceforge.net/projects/mingw/
+ * CMake		 https://cmake.org/
+ *
+ */
+
 #ifndef FILE_UTILS_HPP
 #define FILE_UTILS_HPP
 
